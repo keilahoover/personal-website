@@ -51,10 +51,30 @@ header {
 }
 
 main {
-  font-size: 1.7rem;
+  color: #FFFFFF;
+  background-color: #8DB9C1;
+  font-size: 2rem;
   text-align: center;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 100px;
 }
 
 .main__p {
   padding: .5rem .5rem;
+}
+
+footer {
+  color: #9B6A6C;
+  font-size: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__a {
+  text-decoration: none;
+  color: #9B6A6C;
 }
