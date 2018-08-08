@@ -10,9 +10,11 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+  background-image: url("../img/ignasi_pattern_s.png");
 }
 
 header {
+  color: #9B6A6C;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +29,14 @@ header {
   font-size: 1.6rem;
 }
 
-.about-me {
+.resume,
+.contact {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #9B6A6C;
+}
+
+.resume {
   margin-right: 615px;
 }
 
@@ -59,7 +68,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 100px;
+  margin: 100px 0 100px;
 }
 
 .main__p {
