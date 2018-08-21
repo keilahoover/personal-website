@@ -64,15 +64,104 @@ main {
   background-color: #8DB9C1;
   font-size: 2rem;
   text-align: center;
-  padding: 100px 100px;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 0 100px;
+  margin: 2rem 0;
+}
+
+.main__h4 {
+  font-family: "Kurale", cursive;
+  font-size: 5rem;
+  letter-spacing: .2rem;
 }
 
 .main__p {
-  padding: .5rem .5rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.main__a {
+  text-decoration: none;
+  color: #424B54;
+}
+
+.main__a:hover {
+  color: #E58C87;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.skills__h3 {
+  color: #9B6A6C;
+  font-family: "Kurale", cursive;
+  font-size: 5rem;
+  letter-spacing: .2rem;
+  /* text-align: center; */
+}
+
+.skills__p {
+  padding: 2px;
+}
+
+.skills__h4,
+.recent-work__h3 {
+  color: #9B6A6C;
+  font-family: "Kurale", cursive;
+  font-size: 3.3rem;
+  letter-spacing: .08rem;
+}
+
+.skills__p {
+  color: #424B54;
+  font-size: 2rem;
+}
+
+.fe-dev-skills-wrap {
+  display: flex;
+}
+
+#fe-dev-skills {
+  padding: 0px 23px 0 23px;
+}
+
+.marketing__div,
+.project-manage__div,
+.design__div,
+.fe-dev__div,
+.be-dev__div
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+#fe-dev__div {
+  padding: 0px 145px 0 20px;
+}
+
+.skills-wrap-one,
+.skills-wrap-two {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.recent-work-container {
+  width: 100%;
+  background-color: #8DB9C1;
+}
+
+.recent-work__img {
+  width: 50%;
+
 }
 
 footer {
