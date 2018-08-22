@@ -37,11 +37,11 @@ header {
 }
 
 .resume {
-  margin-right: 615px;
+  margin-right: 500px;
 }
 
 .contact {
-  margin-left: 615px;
+  margin-left: 500px;
 }
 
 .header__h1 {
@@ -54,15 +54,26 @@ header {
 }
 
 .header__h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: .1rem;
   padding: .5rem .5rem;
 }
 
+.about-container {
+  display: flex;
+  align-items: center;
+  background-color: #8DB9C1;
+  width: 100%;
+  height: 525px;
+}
+
+.about__img {
+  width: 24%;
+  padding-left: 20px;
+}
+
 main {
   color: #FFFFFF;
-  background-color: #8DB9C1;
-  font-size: 2rem;
   text-align: center;
   padding: 6rem;
   display: flex;
@@ -71,32 +82,51 @@ main {
   margin: 2rem 0;
 }
 
-.main__h4 {
-  font-family: "Kurale", cursive;
-  font-size: 5rem;
-  letter-spacing: .2rem;
-}
-
 .main__p {
   font-size: 2rem;
   padding: 1rem;
 }
 
-.main__a {
-  text-decoration: none;
-  color: #424B54;
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8DB9C1;
+  padding: 32px;
+  letter-spacing: .15rem;
+  }
+
+.resume__h3 {
+  font-size: 3rem;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
 }
 
-.main__a:hover {
-  color: #E58C87;
+.resume__btn {
+  width: 10%;
+  padding: .5rem;
+  border-radius: .5rem;
+  background-color: #9B6A6C;
+}
+
+.resume__btn:hover {
+  background-color: #AF888A;
+}
+
+.resume__a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  letter-spacing: .08rem;
 }
 
 .skills-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .skills__h3 {
@@ -132,17 +162,22 @@ main {
   padding: 0px 23px 0 23px;
 }
 
-.marketing__div,
-.project-manage__div,
 .design__div,
-.fe-dev__div,
-.be-dev__div
- {
+.fe-dev__div {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 20px 0 20px;
 }
+
+.project-manage__div,
+.marketing__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 0 146px;
+}
+
 
 #fe-dev__div {
   padding: 0px 145px 0 20px;
@@ -152,6 +187,7 @@ main {
 .skills-wrap-two {
   display: flex;
   margin: 2rem 0;
+  padding-right: 115px;
 }
 
 .recent-work-container {
@@ -159,9 +195,12 @@ main {
   background-color: #8DB9C1;
 }
 
+.recent-work__h3 {
+  text-align: center;
+}
+
 .recent-work__img {
   width: 50%;
-
 }
 
 footer {
