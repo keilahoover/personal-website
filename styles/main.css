@@ -129,7 +129,8 @@ main {
   text-align: center;
 }
 
-.skills__h3 {
+.skills__h3,
+.recent-work__h3 {
   color: #9B6A6C;
   font-family: "Kurale", cursive;
   font-size: 5rem;
@@ -141,8 +142,7 @@ main {
   padding: 2px;
 }
 
-.skills__h4,
-.recent-work__h3 {
+.skills__h4 {
   color: #9B6A6C;
   font-family: "Kurale", cursive;
   font-size: 3.3rem;
@@ -199,8 +199,19 @@ main {
   text-align: center;
 }
 
+.first-work-article,
+.second-work-article {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
 .recent-work__img {
-  width: 50%;
+  width: 625px;
+}
+
+.kindara-img {
+  width: 703px;
 }
 
 footer {
