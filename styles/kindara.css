@@ -1,0 +1,44 @@
+
+.header__nav {
+  background-color: #8DB9C1;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0 10rem;;
+  padding: .5rem 5.5rem;
+}
+
+.resume,
+.contact {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.header__h1 {
+  font-size: 2.3rem;;
+}
+
+.kindara-logo {
+  width: 45%;
+}
+
+.kindara-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kindara-intro__article {
+  background-color: #EBEBEB;
+  height: 100vh;
+  width: 88%;
+  box-shadow: 2px 0 4px #a6a6a6;
+}
+
+.kindara-intro__h2 {
+  font-size: 3rem;
+  color: #424B54;
+  padding: 0 0 5.5rem 10px;
+}
