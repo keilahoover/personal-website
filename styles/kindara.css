@@ -1,7 +1,10 @@
+#static-header {
+  background: #424B54;
+}
 
 .header__nav {
   background-color: #8DB9C1;
-  color: #FFFFFF;
+  color: #EBEBEB;
   display: flex;
   align-items: center;
   margin: 2.5rem 0 10rem;;
@@ -11,17 +14,23 @@
 .name,
 .resume,
 .contact {
-  color: #FFFFFF;
+  color: #EBEBEB;
   font-size: 2rem;
   text-decoration: none;
 }
 
-.header__h1 {
-  font-size: 2.3rem;;
+.kindara__h1 {
+  font-size: 4rem;
+  color: #424B54;
 }
 
 .kindara-logo {
   width: 45%;
+  padding-top: 3.3rem;
+}
+
+.wrapper {
+  margin: 6%;
 }
 
 .kindara {
@@ -30,20 +39,96 @@
   justify-content: center;
   align-items: center;
 }
-/*
-.kindara__article {
-  background-color: #EBEBEB;
-  height: 100vh;
-  width: 88%;
-  box-shadow: 2px 0 4px #a6a6a6;
-} */
 
 .kindara__h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #424B54;
   padding: 0 0 5.5rem 10px;
 }
 
+.kindara__article {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background: #b1b9c2;
+  padding: 3.3rem 110px 3.3rem 50px;
+}
+
+.span--inline {
+  display: inline;
+  margin-left: 5px;
+}
+
+.kindara__h3 {
+  font-family: "Kurale", cursive;
+  font-size: 3rem;
+  margin-right: 50px;
+  color: #7e5456;
+}
+
+.kindara__h4 {
+  font-size: 2rem;
+  color: #7e5456;
+}
+
+.kindara__p {
+  font-size: 1.8rem;
+}
+
+#first-p {
+  margin: .8rem 0;
+}
+
+#second-p {
+  margin-bottom: 1rem;
+}
+
+#third-p,
+#fourth-p {
+  margin: 1rem 0;
+}
+
+.kindara__span {
+  font-weight: 600;
+}
+
+.fa-users,
+.fa-dollar-sign {
+  margin-right: 9px;
+}
+
+.kindara__ul {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.kindara__ul li {
+  padding: 1rem 0;
+}
+
+#third-aside {
+  padding-left: 92px;
+  float: left;
+}
+
+div.persona-img__div {
+  float: left;
+  width: 54%;
+  margin-right: 21px;
+}
+
+.kindara-persona__img {
+  width: 100%;
+}
+
 .kindara-palette__img {
   width: 50%;
+}
+
+.style-guide__div {
+  padding-left: 54px;
+}
+
+#demo__h3 {
+  margin-right: 177px;
 }
