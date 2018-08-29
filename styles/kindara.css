@@ -8,10 +8,12 @@
   padding: .5rem 5.5rem;
 }
 
+.name,
 .resume,
 .contact {
   color: #FFFFFF;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 .header__h1 {
@@ -22,23 +24,26 @@
   width: 45%;
 }
 
-.kindara-intro {
+.kindara {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-
-.kindara-intro__article {
+/*
+.kindara__article {
   background-color: #EBEBEB;
   height: 100vh;
   width: 88%;
   box-shadow: 2px 0 4px #a6a6a6;
-}
+} */
 
-.kindara-intro__h2 {
+.kindara__h2 {
   font-size: 3rem;
   color: #424B54;
   padding: 0 0 5.5rem 10px;
+}
+
+.kindara-palette__img {
+  width: 50%;
 }

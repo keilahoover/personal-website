@@ -13,9 +13,14 @@
 
 <body>
   <header class="header">
-    <nav class="header__nav">
-      <a href="KHoover_Resume.pdf" target="_blank" class="resume">RESUME&#769;</a>
-      <a href="content/contact.html" class="contact">CONTACT</a>
+    <nav class="header__nav" id="header__nav">
+      <a href="KHoover_Resume.pdf" target="_blank" class="header__resume">RESUME&#769;</a>
+      <article class="header__article">
+        <a href="#portfolio-container" class="header__portfolio" id="header__portfolio">PORTFOLIO</a>
+      </article>
+
+      <a href="#skills-container" class="header__skills">SKILLS</a>
+      <a href="content/contact.html" class="header__contact">CONTACT</a>
     </nav>
     <h1 class="header__h1">KEILA HOOVER</h1>
     <section class="header__section">
@@ -25,8 +30,9 @@
       <h3 class="header__h3">|</h3>
       <h3 class="header__h3">DIGITAL MARKETING</h3>
     </section>
+    <button class="header__btn"><a href="#about-container" class="header__a" id="header__a">Curious to Know More?</a></button>
   </header>
-  <section class="about-container">
+  <section class="about-container" id="about-container">
     <img class="about__img" src="img/about_me.png">
     <main>
       <p class="main__p">As a passionate creative and developer, I am continually seeking knowledge and collaborations to enhance my skills.</p>
@@ -38,7 +44,7 @@
     <h3 class="resume__h3">TAKE A LOOK AT MY RESUME&#769;!</h3>
     <button class="resume__btn"><a href="KHoover_Resume.pdf" class="resume__a" target="_blank">DOWNLOAD</a></button>
   </section>
-  <section class="skills-container">
+  <section class="skills-container" id="skills-container">
     <h3 class="skills__h3">SKILLS</h3>
     <aside class="skills-wrap-one">
       <div class="fe-dev__div" id="fe-dev__div">
@@ -88,15 +94,14 @@
     </aside>
     </article>
   </section>
-  <section class="recent-work-container">
-    <h3 class="recent-work__h3">PORTFOLIO</h3>
-    <article class="recent-work__article first-work-article">
-      <a href="content/kindara.html"><img class="recent-work__img kindara-img" src="img/Kindara_iPhone_mockup.png"></a>
-      <a href="content/gems.html"><img class="recent-work__img" src="img/gems_macbook_mockup.png"></a>
+  <section class="portfolio-container" id="portfolio-container">
+    <h3 class="portfolio__h3">PORTFOLIO</h3>
+    <article class="portfolio__article first-work-article">
+      <a href="content/kindara.html"><img class="portfolio__img kindara-img" src="img/Kindara_iPhone_mockup.png"></a>
+      <a href="content/gems.html"><img class="portfolio__img" src="img/gems_macbook_mockup.png"></a>
     </article>
-    <article class="recent-work__article second-work-article">
-      <a href="content/lumine.html"><img class="recent-work__img" src="img/lumine_mockup.png"></a>
-      <!-- <a href="content/passion-project.html"><img class="recent-work__img" src="img/lumine.png"></a> -->
+    <article class="portfolio__article second-work-article">
+      <a href="content/lumine.html"><img class="portfolio__img" src="img/lumine_mockup.png"></a>
     </article>
   </section>
   <footer class="footer">
@@ -105,9 +110,8 @@
       <a href="https://github.com/keilahoover" class="footer__a"><i class="fa fa-github-square" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/keilahoover/" class="footer__a"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
     </nav>
-    <p>&copy; 2018 Keila Hoover</p>
+    <p>Designed & Developed by Keila Hoover &copy; 2018</p>
   </footer>
-
 </body>
 
 </html>
