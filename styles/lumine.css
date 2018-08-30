@@ -1,5 +1,5 @@
 #static-header {
-  background: #424B54;
+  background-image: url("../img/ignasi_pattern_s.png");
 }
 
 .header__nav {
@@ -7,7 +7,7 @@
   color: #EBEBEB;
   display: flex;
   align-items: center;
-  margin: 2.5rem 0 10rem;;
+  margin: 2.5rem 0 2rem;
   padding: .5rem 5.5rem;
 }
 
@@ -17,6 +17,7 @@
   color: #EBEBEB;
   font-size: 2rem;
   text-decoration: none;
+  padding: 22px 162px;
 }
 
 .lumine__h1 {

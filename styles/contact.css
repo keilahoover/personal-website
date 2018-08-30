@@ -1,0 +1,21 @@
+#static-header {
+  background-image: url("../img/ignasi_pattern_s.png");
+}
+
+.header__nav {
+  background-color: #8DB9C1;
+  color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0 2rem;
+  padding: .5rem 5.5rem;
+}
+
+.name,
+.resume,
+.contact {
+  color: #EBEBEB;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 22px 162px;
+}

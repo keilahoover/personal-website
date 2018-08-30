@@ -1,5 +1,6 @@
 #static-header {
-  background: #424B54;
+  background-image: url("../img/ignasi_pattern_s.png");
+  background-size: inherit;
 }
 
 .header__nav {
@@ -7,7 +8,7 @@
   color: #EBEBEB;
   display: flex;
   align-items: center;
-  margin: 2.5rem 0 10rem;;
+  margin: 2.5rem 0 2rem;
   padding: .5rem 5.5rem;
 }
 
@@ -17,15 +18,16 @@
   color: #EBEBEB;
   font-size: 2rem;
   text-decoration: none;
+  padding: 22px 162px;
 }
 
 .gems__h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   color: #424B54;
 }
 
 .wrapper {
-  margin: 6%;
+  margin: 49px 6%;
 }
 
 .gems {
