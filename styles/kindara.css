@@ -20,7 +20,7 @@
 }
 
 .kindara__h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   color: #424B54;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .wrapper {
-  margin: 6%;
+  margin: 49px 6%;
 }
 
 .kindara {
@@ -61,18 +61,19 @@
 
 .kindara__h3 {
   font-family: "Kurale", cursive;
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin-right: 50px;
   color: #7e5456;
 }
 
 .kindara__h4 {
-  font-size: 2rem;
+  padding: 1rem 0;
+  font-size: 2.5rem;
   color: #7e5456;
 }
 
 .kindara__p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 #first-p {
@@ -99,7 +100,7 @@
 
 .kindara__ul {
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .kindara__ul li {
@@ -119,6 +120,15 @@ div.persona-img__div {
 
 .kindara-persona__img {
   width: 100%;
+}
+
+#style-guide {
+  display: flex;
+  align-items: start;
+}
+
+#style-guide__h3 {
+  margin-top: 18rem;
 }
 
 .kindara-palette__img {
