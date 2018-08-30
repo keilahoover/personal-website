@@ -30,7 +30,12 @@
       <h3 class="header__h3">|</h3>
       <h3 class="header__h3">DIGITAL MARKETING</h3>
     </section>
-    <button class="header__btn"><a href="#about-container" class="header__a" id="header__a">Curious to Know More?</a></button>
+    <aside class="header__aside">
+      <div class="downArrow bounce">
+        <i class="fas fa-angle-double-down"></i>
+      </div>
+      <h4 class="header__h4" id="header__h4">Curious to Know More?</h4>
+    </aside>
   </header>
   <section class="about-container" id="about-container">
     <img class="about__img" src="img/about_me.png">
@@ -95,14 +100,16 @@
     </article>
   </section>
   <section class="portfolio-container" id="portfolio-container">
+  <div class="portfolio__div">
     <h3 class="portfolio__h3">PORTFOLIO</h3>
     <article class="portfolio__article first-work-article">
-      <a href="content/kindara.html"><img class="portfolio__img kindara-img" src="img/Kindara_iPhone_mockup.png"></a>
-      <a href="content/gems.html"><img class="portfolio__img" src="img/gems_macbook_mockup.png"></a>
+      <a href="content/kindara.html"><img class="portfolio__img" id="kindara-img" src="img/Kindara_iPhone_mockup.png"></a>
+      <a href="content/gems.html"><img class="portfolio__img" id="gems-img" src="img/gems_macbook_mockup.png"></a>
     </article>
     <article class="portfolio__article second-work-article">
-      <a href="content/lumine.html"><img class="portfolio__img" src="img/lumine_mockup.png"></a>
+      <a href="content/lumine.html"><img class="portfolio__img" id="lumine-img" src="img/lumine_mockup.png"></a>
     </article>
+  </div>
   </section>
   <footer class="footer">
     <nav class="footer__nav">
