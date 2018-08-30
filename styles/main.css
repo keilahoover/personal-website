@@ -156,8 +156,9 @@ header {
   display: flex;
   align-items: center;
   background-color: #8DB9C1;
-  width: 100%;
+  width: 90%;
   height: 600px;
+  margin: 0 69px;
 }
 
 .about__img {
@@ -182,12 +183,13 @@ main {
 
 .resume-container {
   border-top: solid 3px #EBEBEB;
+  margin: 0 74px 0 70px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #8DB9C1;
-  padding: 32px;
   letter-spacing: .15rem;
 }
 
