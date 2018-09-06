@@ -48,7 +48,7 @@ header {
 .header__portfolio,
 .header__skills {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #EBEBEB;
 }
 
@@ -69,6 +69,7 @@ header {
   font-family: "Kurale", cursive;
   font-size: 8.8rem;
   color: #EBEBEB;
+  letter-spacing: .3rem;
 }
 
 .header__section {
@@ -77,7 +78,7 @@ header {
 
 .header__h3 {
   color: #EBEBEB;
-  font-size: 3.3rem;
+  font-size: 4rem;
   letter-spacing: .1rem;
   padding: .5rem .5rem;
 }
@@ -86,16 +87,15 @@ header {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  margin: 40rem 0 10rem;
-  padding: 20px 40px 20px 33px;
+  margin: 45rem 0 4rem;
   border-radius: .5rem;
-  font-size: 3.3rem;
+  font-size: 4rem;
   color: #EBEBEB;
   letter-spacing: .08rem;
 }
 
 .downArrow {
-  padding-top: 2.5rem;
+  padding-top: 2rem;
 }
 
 .bounce {
@@ -211,12 +211,10 @@ main {
 }
 
 .skills-container {
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -226,7 +224,6 @@ main {
   font-family: "Kurale", cursive;
   font-size: 5rem;
   letter-spacing: .2rem;
-  padding-top: 5rem;
 }
 
 .skills__p {
@@ -269,7 +266,6 @@ main {
   padding: 0 20px 0 146px;
 }
 
-
 #fe-dev__div {
   padding: 0px 145px 0 20px;
 }
@@ -282,7 +278,8 @@ main {
 }
 
 .portfolio-container {
-  margin: 3%;
+  margin: 0 3%;
+  padding: 10rem 0 18rem;
   width: 94%;
   background-color: #8DB9C1;
 }
