@@ -77,27 +77,27 @@ header {
 
 .header__h3 {
   color: #EBEBEB;
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   letter-spacing: .1rem;
   padding: .5rem .5rem;
 }
 
 .header__aside {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-  background-color: #9B6A6C;
+  flex-direction: column-reverse;
+  align-items: center;
   margin: 40rem 0 10rem;
   padding: 20px 40px 20px 33px;
   border-radius: .5rem;
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   color: #EBEBEB;
   letter-spacing: .08rem;
 }
 
-.downArrow{
-  padding-left: 75px;
+.downArrow {
+  padding-top: 2.5rem;
 }
+
 .bounce {
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
@@ -183,18 +183,6 @@ main {
   font-size: 2rem;
   padding: 1rem;
 }
-
-/* .resume-container {
-  border-top: solid 3px #EBEBEB;
-  margin: 0 74px 0 70px;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #8DB9C1;
-  letter-spacing: .15rem;
-} */
 
 .resume__h3 {
   font-size: 3rem;
@@ -294,10 +282,6 @@ main {
 }
 
 .portfolio-container {
-  text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin: 3%;
   width: 94%;
   background-color: #8DB9C1;
@@ -307,28 +291,60 @@ main {
   text-align: center;
 }
 
-.first-work-article,
-.second-work-article {
+.portfolio__div {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
 }
 
-.portfolio__img {
-  border: 5px solid #EBEBEB;
-  border-radius: .8rem;
+#portfolio-kindara {
+  display: flex;
+  align-items: center;
+  background: url("../img/Kindara_iPhone_mockup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 459px;
 }
 
-#kindara-img {
-  width: 84.5%;
+#portfolio-gems {
+  display: flex;
+  align-items: center;
+  background: url("../img/gems_macbook_mockup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 459px;
 }
 
-#gems-img {
-  width: 75%;
+#portfolio-lumine {
+  display: flex;
+  align-items: center;
+  background: url("../img/lumine_mockup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 459px;
 }
 
-#lumine-img {
+.portfolio__article .kindara__a,
+.portfolio__article .gems__a,
+.portfolio__article .lumine__a {
+  font-size: 3rem;
+  color: #FFFFFF;
+  background: #9B6A6C;
+  padding: 1.5rem 0;
   width: 56%;
+  opacity: 0;
+  text-decoration: none;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.portfolio__article:hover .kindara__a,
+.portfolio__article:hover .gems__a,
+.portfolio__article:hover .lumine__a {
+    opacity: 0.8;
 }
 
 footer {
