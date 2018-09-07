@@ -232,6 +232,10 @@ main {
   padding: 1rem 0 5rem;
 }
 
+#skills__h3 {
+  padding-top: 5rem;
+}
+
 .skills__article {
   display: flex;
   justify-content: space-evenly;
