@@ -41,24 +41,28 @@
     <img class="about__img" src="img/about_me.svg">
     <main>
       <aside class="main__aside">
-      <p class="main__p"><span class="main__span">I'm a Front-End Developer & UX Designer</span> with a background in digital marketing and all it's facets with a passion to create a beautifully functional User Experience.</p>
-      <p class="main__p">Once I discovered UX, I knew it encompassed my passions: people, problem-solving, & storytelling. My confidence increased over time while helping others reach their business goals through UX design and development.</p>
-      <p class="main__p">When I'm not coding my heart out, you will most likely find me nose deep in a good book, graphic novel, or video game. Or possibly out and about digging in to tasty foods in Denver & Boulder. I also dream about and enjoy traveling--I'm currently planning an Asia trip to Singapore, China, & Japan.</p>
-    </aside>
+        <p class="main__p"><span class="main__span">I'm a Front-End Developer & UX Designer</span> with a background in digital marketing and all it's facets with a passion to create a beautifully functional User Experience.</p>
+        <p class="main__p">Once I discovered UX, I knew it encompassed my passions: people, problem-solving, & storytelling. My confidence increased over time while helping others reach their business goals through UX design and development.</p>
+        <p class="main__p">When I'm not coding my heart out, you will most likely find me nose deep in a good book, graphic novel, or video game. Or possibly out and about digging in to tasty foods in Denver & Boulder. I also dream about and enjoy
+          traveling--I'm currently planning an Asia trip to Singapore, China, & Japan.</p>
+      </aside>
     </main>
     <h4 class="resume__h4">TAKE A LOOK AT MY RESUME&#769;!</h4>
     <button class="resume__btn"><a href="KHoover_Resume.pdf" class="resume__a" target="_blank">DOWNLOAD</a></button>
   </section>
   <section class="skills-container" id="skills-container">
     <h3 class="skills__h3">SKILLS</h3>
+    <article class="skills__article">
     <aside class="skills-wrap-one">
       <div class="fe-dev__div" id="fe-dev__div">
+        <i class="fas fa-code skills__icon"></i>
         <h4 class="skills__h4">FRONT-END DEVELOPMENT</h4>
         <div class="fe-dev-skills-wrap">
           <div id="fe-dev-skills">
             <p class="skills__p">HTML5</p>
             <p class="skills__p">CSS</p>
             <p class="skills__p">Sass</p>
+            <!-- <p class="skills__p">ARIA - Acessiblity</p> -->
           </div>
           <div id="fe-dev-skills">
             <p class="skills__p">ES6</p>
@@ -72,7 +76,19 @@
           </div>
         </div>
       </div>
-      <div class="design__div">
+      <div class="marketing__div">
+        <i class="fas fa-funnel-dollar skills__icon"></i>
+        <!-- <i class="fas fa-search-dollar"></i> -->
+        <h4 class="skills__h4">MARKETING</h4>
+        <p class="skills__p">SEO</p>
+        <p class="skills__p">KPI Research & Implementation</p>
+        <p class="skills__p">Analytics & Metrics</p>
+        <p class="skills__p">Testing & Optimization</p>
+      </div>
+    </aside>
+    <aside class="skills-wrap-two">
+      <div class="design__div" id="design__div">
+        <i class="fas fa-universal-access skills__icon"></i>
         <h4 class="skills__h4">UI/UX DESIGN</h4>
         <p class="skills__p">Wireframing</p>
         <p class="skills__p">UX Research</p>
@@ -80,16 +96,8 @@
         <p class="skills__p">Visual Communication</p>
         <p class="skills__p">Adobe Creative Suite</p>
       </div>
-    </aside>
-    <aside class="skills-wrap-two">
-      <div class="marketing__div">
-        <h4 class="skills__h4">MARKETING</h4>
-        <p class="skills__p">SEO</p>
-        <p class="skills__p">KPI Research & Implementation</p>
-        <p class="skills__p">Analytics & Metrics</p>
-        <p class="skills__p">Testing & Optimization</p>
-      </div>
       <div class="project-manage__div">
+        <i class="fas fa-cogs skills__icon"></i>
         <h4 class="skills__h4">PROJECT MANAGEMENT</h4>
         <p class="skills__p">Software Implementation</p>
         <p class="skills__p">Git Workflow</p>
@@ -97,16 +105,17 @@
         <p class="skills__p">Agile & Scrum</p>
       </div>
     </aside>
+  </article>
     </article>
   </section>
   <section class="portfolio-container" id="portfolio-container">
     <h3 class="portfolio__h3">PORTFOLIO</h3>
-  <div class="portfolio__div">
+    <div class="portfolio__div">
 
-    <article class="portfolio__article" id="portfolio-kindara"><a href="content/kindara.html" class="kindara__a" id="kindara__a">KINDARA</a></article>
-    <article class="portfolio__article" id="portfolio-gems"><a href="content/gems.html" class="gems__a" id="gems__a">GEMS</a></article>
-    <article class="portfolio__article" id="portfolio-lumine"><a href="content/lumine.html" class="lumine__a" id="lumine__a">LUMINE</a></article>
-  </div>
+      <article class="portfolio__article" id="portfolio-kindara"><a href="content/kindara.html" class="kindara__a" id="kindara__a">KINDARA</a></article>
+      <article class="portfolio__article" id="portfolio-gems"><a href="content/gems.html" class="gems__a" id="gems__a">GEMS</a></article>
+      <article class="portfolio__article" id="portfolio-lumine"><a href="content/lumine.html" class="lumine__a" id="lumine__a">LUMINE</a></article>
+    </div>
   </section>
   <footer class="footer">
     <nav class="footer__nav">

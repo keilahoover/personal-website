@@ -15,10 +15,8 @@ body {
 
 header {
   background:
-    linear-gradient(
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-      ),
+    linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
     url("../img/portfolio_profile.png");
   background-size: cover;
   display: flex;
@@ -34,9 +32,9 @@ header {
 }
 
 .header__article {
-  z-index:0;
-  -webkit-transform: translateZ( 0 );
-  transform: translateZ( 0 );
+  z-index: 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   -webkit-backface-visibility: hidden;
@@ -76,7 +74,11 @@ header {
   display: flex;
 }
 
-
+.header__h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #EBEBEB;
+}
 
 .header__aside {
   display: flex;
@@ -94,38 +96,45 @@ header {
 }
 
 .bounce {
-	-moz-animation: bounce 3s infinite;
-	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
 }
+
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
     transform: translateY(0);
   }
+
   40% {
     -moz-transform: translateY(-30px);
     transform: translateY(-30px);
   }
+
   60% {
     -moz-transform: translateY(-15px);
     transform: translateY(-15px);
   }
 }
+
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   40% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
+
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
 }
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
@@ -133,12 +142,14 @@ header {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+
   40% {
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
+
   60% {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
@@ -154,7 +165,7 @@ header {
   align-items: center;
   background-color: #8DB9C1;
   width: 94%;
-  margin: 50px;
+  margin: 0 3%;
   padding: 5rem 0;
 }
 
@@ -210,49 +221,39 @@ main {
   letter-spacing: .08rem;
 }
 
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .skills__h3,
 .portfolio__h3,
 .header__h3 {
   font-weight: 700;
   color: #9B6A6C;
   font-size: 8rem;
-  letter-spacing: .2rem;
-}
-
-.portfolio__h3 {
   text-align: center;
-  color: #EBEBEB;
+  letter-spacing: .2rem;
+  padding: 1rem 0 5rem;
 }
 
-.header__h3 {
+.skills__article {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 11rem;
+}
+
+.skills__h4,
+.skills__icon {
+  color: #9B6A6C;
+  font-family: "Kurale", cursive;
   font-size: 4rem;
-  font-weight: 400;
-  color: #EBEBEB;
-  padding: .5rem .5rem;
+  letter-spacing: .08rem;
+}
+
+.skills__icon {
+  color: #8DB9C1;
 }
 
 .skills__p {
   padding: 2px;
-}
-
-.skills__h4 {
-  color: #9B6A6C;
-  font-family: "Kurale", cursive;
-  font-size: 3.3rem;
-  letter-spacing: .08rem;
-}
-
-.skills__p {
   color: #424B54;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .fe-dev-skills-wrap {
@@ -263,36 +264,24 @@ main {
   padding: 0px 23px 0 23px;
 }
 
+.project-manage__div,
+.marketing__div,
 .design__div,
 .fe-dev__div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 20px 0 20px;
-}
-
-.project-manage__div,
-.marketing__div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 20px 0 146px;
+  text-align: center;
 }
 
 #fe-dev__div {
-  padding: 0px 145px 0 20px;
+  padding-bottom: 18rem;
 }
 
-.skills-wrap-one,
-.skills-wrap-two {
-  display: flex;
-  margin: 2rem 0;
-  padding-right: 115px;
+#design__div {
+  padding-bottom: 11rem;
 }
 
 .portfolio-container {
   margin: 0 3%;
-  padding: 3rem 0;
+  padding: 5rem 0;
   width: 94%;
   background-color: #8DB9C1;
 }
@@ -331,6 +320,11 @@ main {
   height: 459px;
 }
 
+.portfolio__h3 {
+  text-align: center;
+  color: #EBEBEB;
+}
+
 .portfolio__article .kindara__a,
 .portfolio__article .gems__a,
 .portfolio__article .lumine__a {
@@ -350,7 +344,7 @@ main {
 .portfolio__article:hover .kindara__a,
 .portfolio__article:hover .gems__a,
 .portfolio__article:hover .lumine__a {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 footer {
