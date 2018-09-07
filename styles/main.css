@@ -154,7 +154,8 @@ header {
   align-items: center;
   background-color: #8DB9C1;
   width: 94%;
-  margin: 0 50px;
+  margin: 50px;
+  padding: 5rem 0;
 }
 
 .about__img {
@@ -189,7 +190,7 @@ main {
 .resume__h4 {
   font-size: 3.3rem;
   color: #EBEBEB;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .resume__btn {
@@ -363,4 +364,8 @@ footer {
 .footer__a {
   text-decoration: none;
   color: #9B6A6C;
+}
+
+.footer__a:hover {
+  color: #AF888A;
 }
