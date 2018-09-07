@@ -70,6 +70,10 @@ header {
   letter-spacing: .3rem;
 }
 
+.hamburger-icon {
+  visibility: hidden;
+}
+
 .header__section {
   display: flex;
 }
@@ -367,4 +371,32 @@ footer {
 
 .footer__a:hover {
   color: #AF888A;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 1512px) {
+
+  .header__nav {
+    padding: 22px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .header__nav {
+    visibility: hidden;
+  }
+
+  .hamburger-icon {
+    visibility: visible;
+  }
+
+  .header__h1 {
+    font-size: 5rem;
+  }
+
+  #header__h3 {
+    font-size: 3rem;
+  }
+
 }
