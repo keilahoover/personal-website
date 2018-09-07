@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="112" viewBox="0 0 393 112">
+  <defs>
+    <style>
+      .cls-1 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 73.417px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        text-anchor: middle;
+        font-family: Raleway;
+      }
+
+      .cls-3, .cls-5 {
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        font-size: 18.333px;
+        font-weight: 800;
+      }
+
+      .cls-5 {
+        font-size: 16.667px;
+      }
+    </style>
+  </defs>
+  <g id="ABOUT_ME" data-name="ABOUT ME" class="cls-1">
+    <g id="Graphics">
+      <path id="Time_Stamp" data-name="Time Stamp" class="cls-2" d="M375.982,291l-31,17.994,31,18,31.006-18Z" transform="translate(-183 -291)"/>
+    </g>
+    <g id="Typography">
+      <text id="about_me-2" data-name="about me" class="cls-3" x="192.625" y="111">ABOUT ME</text>
+      <text id="thought" class="cls-4" x="257.813" y="20.875">thought</text>
+      <text id="crafted" class="cls-4" x="126.812" y="20.875">crafted</text>
+      <text id="_1988" data-name="1988" class="cls-5" x="192.875" y="24.062">1988</text>
+    </g>
+  </g>
+</svg>

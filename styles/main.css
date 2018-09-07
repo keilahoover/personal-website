@@ -76,12 +76,7 @@ header {
   display: flex;
 }
 
-.header__h3 {
-  color: #EBEBEB;
-  font-size: 4rem;
-  letter-spacing: .1rem;
-  padding: .5rem .5rem;
-}
+
 
 .header__aside {
   display: flex;
@@ -158,9 +153,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #8DB9C1;
-  width: 90%;
-  height: 600px;
-  margin: 0 69px;
+  width: 94%;
+  margin: 0 50px;
 }
 
 .about__img {
@@ -171,41 +165,46 @@ header {
 main {
   color: #EBEBEB;
   text-align: center;
-  padding: 6rem;
+  padding: 6rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
   border-bottom: solid 3px #EBEBEB;
 }
 
-.main__p {
-  font-size: 2rem;
-  padding: 1rem;
+.main__aside {
+  width: 50%;
 }
 
-.resume__h3 {
-  font-size: 3rem;
+.main__p {
+  font-size: 2.2rem;
+  padding: 1rem 0;
+}
+
+.main__span {
+  color: #424B54;
+  font-weight: 600;
+}
+
+.resume__h4 {
+  font-size: 3.3rem;
   color: #EBEBEB;
   padding-bottom: 2rem;
 }
 
-.resume__btn,
-.header__btn {
-  width: 10%;
-  padding: .5rem;
+.resume__btn {
+  padding: 2rem;
   border-radius: .5rem;
   background-color: #9B6A6C;
 }
 
-.resume__btn:hover,
-.header__btn:hover {
+.resume__btn:hover {
   background-color: #AF888A;
 }
 
 .resume__a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   color: #EBEBEB;
   letter-spacing: .08rem;
 }
@@ -219,11 +218,24 @@ main {
 }
 
 .skills__h3,
-.portfolio__h3 {
+.portfolio__h3,
+.header__h3 {
+  font-weight: 700;
   color: #9B6A6C;
-  font-family: "Kurale", cursive;
-  font-size: 5rem;
+  font-size: 8rem;
   letter-spacing: .2rem;
+}
+
+.portfolio__h3 {
+  text-align: center;
+  color: #EBEBEB;
+}
+
+.header__h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #EBEBEB;
+  padding: .5rem .5rem;
 }
 
 .skills__p {
@@ -279,13 +291,9 @@ main {
 
 .portfolio-container {
   margin: 0 3%;
-  padding: 10rem 0 18rem;
+  padding: 3rem 0;
   width: 94%;
   background-color: #8DB9C1;
-}
-
-.portfolio__h3 {
-  text-align: center;
 }
 
 .portfolio__div {
@@ -328,7 +336,7 @@ main {
   font-size: 3rem;
   color: #FFFFFF;
   background: #9B6A6C;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
   width: 56%;
   opacity: 0;
   text-decoration: none;
