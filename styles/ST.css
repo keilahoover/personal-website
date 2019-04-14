@@ -1,0 +1,122 @@
+#static-header {
+  background-image: url("../img/ignasi_pattern_s.png");
+  background-size: inherit;
+}
+
+.header__nav {
+  background-color: #8DB9C1;
+  color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0 2rem;
+  padding: .5rem 5.5rem;
+}
+
+.name,
+.resume,
+.contact {
+  color: #EBEBEB;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 22px 162px;
+}
+
+.gems__h1 {
+  font-size: 6rem;
+  color: #424B54;
+}
+
+.wrapper {
+  margin: 49px 6%;
+}
+
+.gems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gems__h2 {
+  font-size: 2rem;
+  color: #424B54;
+  padding: 0 0 5.5rem 10px;
+}
+
+.gems__article {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background: #b1b9c2;
+  padding: 3.3rem 110px 3.3rem 50px;
+}
+
+.span--inline {
+  display: inline;
+  margin-left: 5px;
+}
+
+.gems__h3 {
+  font-family: "Kurale", cursive;
+  font-size: 3rem;
+  margin-right: 50px;
+  color: #7e5456;
+}
+
+.gems__h4 {
+  font-size: 2rem;
+  color: #7e5456;
+}
+
+.gems__p {
+  font-size: 1.8rem;
+}
+
+#first-p {
+  margin: .8rem 0;
+}
+
+#second-p {
+  margin-bottom: 1rem;
+}
+
+#third-p,
+#fourth-p {
+  margin: 1rem 0;
+}
+
+.gems__span {
+  font-weight: 600;
+}
+
+.gems__ul {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.gems__ul li {
+  padding: 1rem 0;
+}
+
+#third-aside {
+  padding-left: 92px;
+  float: left;
+}
+
+div.persona-img__div {
+  float: left;
+  width: 54%;
+  margin-right: 21px;
+}
+
+.gems-persona__img {
+  width: 100%;
+}
+
+.gems-palette__img {
+  width: 50%;
+}
+
+.style-guide__div {
+  padding-left: 54px;
+}

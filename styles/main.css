@@ -298,34 +298,27 @@ main {
   display: flex;
 }
 
+.portfolio__article {
+  margin-left: 2rem;
+}
+
 #portfolio-kindara {
   display: flex;
   align-items: center;
   background: url("../img/Kindara_iPhone_mockup.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50%;
+  width: 75%;
   height: 459px;
 }
 
-#portfolio-gems {
+#portfolio-st {
   display: flex;
   align-items: center;
-  background: url("../img/gems_macbook_mockup.png");
+  background: url("../img/ST_macbook_mockup.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 459px;
-}
-
-#portfolio-lumine {
-  display: flex;
-  align-items: center;
-  background: url("../img/lumine_mockup.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 459px;
+  width: 75%;
 }
 
 .portfolio__h3 {
@@ -334,8 +327,7 @@ main {
 }
 
 .portfolio__article .kindara__a,
-.portfolio__article .gems__a,
-.portfolio__article .lumine__a {
+.portfolio__article .st__a {
   font-size: 3rem;
   color: #FFFFFF;
   background: #9B6A6C;
@@ -350,8 +342,7 @@ main {
 }
 
 .portfolio__article:hover .kindara__a,
-.portfolio__article:hover .gems__a,
-.portfolio__article:hover .lumine__a {
+.portfolio__article:hover .st__a {
   opacity: 0.8;
 }
 
