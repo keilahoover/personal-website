@@ -21,7 +21,7 @@
   padding: 22px 162px;
 }
 
-.gems__h1 {
+.st__h1 {
   font-size: 6rem;
   color: #424B54;
 }
@@ -30,22 +30,24 @@
   margin: 49px 6%;
 }
 
-.gems {
+.st {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.gems__h2 {
+.st__h2 {
   font-size: 2rem;
   color: #424B54;
   padding: 0 0 5.5rem 10px;
 }
 
-.gems__article {
+.st__article {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 70%;
   background: #b1b9c2;
   padding: 3.3rem 110px 3.3rem 50px;
@@ -56,20 +58,34 @@
   margin-left: 5px;
 }
 
-.gems__h3 {
+.st__h3 {
   font-family: "Kurale", cursive;
   font-size: 3rem;
-  margin-right: 50px;
   color: #7e5456;
 }
 
-.gems__h4 {
+.st__h4 {
   font-size: 2rem;
   color: #7e5456;
+  padding-bottom: 13px;
 }
 
-.gems__p {
+.st__p {
   font-size: 1.8rem;
+}
+
+#intro__p{
+  padding-bottom: 20px;
+}
+
+.st__a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #7e5456;
+}
+
+.st__a:hover {
+  color: #AF888A;
 }
 
 #first-p {
@@ -85,17 +101,58 @@
   margin: 1rem 0;
 }
 
-.gems__span {
+.st__span {
   font-weight: 600;
 }
 
-.gems__ul {
+.st__ul {
+  text-align: center;
   list-style: none;
   font-size: 1.8rem;
 }
 
-.gems__ul li {
+.st__ul li {
   padding: 1rem 0;
+}
+
+.st__section {
+  width: 100%;
+}
+
+#product_page_01 {
+  background: url("../img/ST_productPage_01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+  margin: 75px 28rem;
+}
+
+#product_page_02 {
+  background: url("../img/ST_productPage_02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 380px;
+  margin: 75px 28rem;
+}
+
+#product_page_03 {
+  background: url("../img/ST_productPage_03.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 372px;
+  margin: 75px 28rem;
+}
+
+#product_page_04 {
+  background: url("../img/ST_productPage_04.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 225px;
+  margin: 75px 28rem 0px;
 }
 
 #third-aside {
@@ -103,20 +160,20 @@
   float: left;
 }
 
-div.persona-img__div {
+/* div.persona-img__div {
   float: left;
   width: 54%;
   margin-right: 21px;
 }
 
-.gems-persona__img {
+.st-persona__img {
   width: 100%;
-}
+} */
 
-.gems-palette__img {
+.st-palette__img {
   width: 50%;
 }
 
 .style-guide__div {
-  padding-left: 54px;
+  padding-top: 20px;
 }

@@ -50,7 +50,9 @@
 
 .kindara__article {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 70%;
   background: #b1b9c2;
   padding: 3.3rem 110px 3.3rem 50px;
@@ -69,7 +71,6 @@
 }
 
 .kindara__h4 {
-  padding: 1rem 0;
   font-size: 2.5rem;
   color: #7e5456;
 }

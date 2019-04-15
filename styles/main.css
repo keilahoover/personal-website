@@ -299,7 +299,7 @@ main {
 }
 
 .portfolio__article {
-  margin-left: 2rem;
+  margin: 0 2rem;
 }
 
 #portfolio-kindara {
