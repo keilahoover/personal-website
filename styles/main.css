@@ -296,11 +296,12 @@ main {
 
 .portfolio__div {
   display: flex;
+  justify-content: center;
 }
 
-.portfolio__article {
+/* .portfolio__article {
   margin: 0 2rem;
-}
+} */
 
 #portfolio-kindara {
   display: flex;
@@ -308,7 +309,7 @@ main {
   background: url("../img/Kindara_iPhone_mockup.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 75%;
+  width: 40%;
   height: 459px;
 }
 
@@ -318,7 +319,7 @@ main {
   background: url("../img/ST_macbook_mockup.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 75%;
+  width: 40%;
 }
 
 .portfolio__h3 {
@@ -333,6 +334,7 @@ main {
   background: #9B6A6C;
   padding: 1.5rem;
   width: 56%;
+  /* margin-top: 250px; */
   opacity: 0;
   text-decoration: none;
   -webkit-transition: opacity 500ms;
@@ -374,12 +376,16 @@ footer {
 }
 
 @media screen and (max-width: 1340px) {
-  .header__nav {
-    visibility: hidden;
+
+  #kindara__a,
+  #st__a {
+    opacity: 0.8
   }
 
-  .hamburger-icon {
-    visibility: visible;
+  #header__resume,
+  #header__portfolio,
+  #header__skills {
+    margin-right: 183px;
   }
 
   .header__h1 {
@@ -390,4 +396,19 @@ footer {
     font-size: 3rem;
   }
 
+}
+
+@media screen and (max-width: 1046px) {
+
+  #header__resume,
+  #header__portfolio,
+  #header__skills {
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  #main__p {
+    font-size: 3rem;
+  }
 }
