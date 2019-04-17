@@ -6,19 +6,19 @@
 .header__nav {
   background-color: #8DB9C1;
   color: #EBEBEB;
-  display: flex;
-  align-items: center;
   margin: 2.5rem 0 2rem;
-  padding: .5rem 5.5rem;
+  padding: .5rem 0.5rem;
 }
 
 .name,
 .resume,
 .contact {
   color: #EBEBEB;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
   text-decoration: none;
-  padding: 22px 162px;
+  padding: 22px 16.2rem;
 }
 
 .kindara__h1 {
@@ -55,7 +55,7 @@
   text-align: center;
   width: 70%;
   background: #b1b9c2;
-  padding: 3.3rem 110px 3.3rem 50px;
+  padding: 3.3rem 110px 3.3rem 110px;
 }
 
 .span--inline {
@@ -153,4 +153,25 @@ footer {
 
 .footer__a:hover {
   color: #AF888A;
+}
+
+@media screen and (max-width: 1415px) {
+  .name,
+  .resume,
+  .contact {
+    padding: 22px 83px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  #first-p,
+  #second-p
+  #third-p,
+  #fourth-p,
+  #kindara__p,
+  #second-aside,
+  #fifth-aside
+   {
+    font-size: 3rem;
+  }
 }

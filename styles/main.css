@@ -48,12 +48,14 @@ header {
   text-decoration: none;
   font-size: 2.5rem;
   color: #EBEBEB;
+  font-weight: 700;
+  letter-spacing: .1rem;
 }
 
 .header__resume,
 .header__portfolio,
 .header__skills {
-  margin-right: 275px;
+  margin-right: 27.5rem;
 }
 
 .header__resume:hover,
@@ -82,6 +84,15 @@ header {
   font-size: 4rem;
   font-weight: 400;
   color: #EBEBEB;
+}
+
+#header--line {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #EBEBEB;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding: 1rem 1.3rem 5rem;
 }
 
 .header__aside {
@@ -280,7 +291,7 @@ main {
 }
 
 #fe-dev__div {
-  padding-bottom: 18rem;
+  padding-bottom: 13rem;
 }
 
 #design__div {
@@ -379,13 +390,14 @@ footer {
 
   #kindara__a,
   #st__a {
-    opacity: 0.8
+    opacity: 0.8;
+    width: 68%;
   }
 
   #header__resume,
   #header__portfolio,
   #header__skills {
-    margin-right: 183px;
+    margin-right: 18.3rem;
   }
 
   .header__h1 {
@@ -403,12 +415,57 @@ footer {
   #header__resume,
   #header__portfolio,
   #header__skills {
-    margin-right: 150px;
+    margin-right: 15rem;
   }
 }
 
-@media screen and (max-width: 812px) {
-  #main__p {
+@media screen and (max-width: 971px) {
+  .header {
+    background-position: center;
+  }
+
+  #header__resume,
+  #header__portfolio,
+  #header__skills {
+    margin-right: 12rem;
+    font-size: 1.8rem;
+  }
+
+  #header__contact {
+    font-size: 1.8rem;
+  }
+
+  #kindara__a,
+  #st__a {
+    margin-bottom: 60px;
+  }
+
+  .main__p {
     font-size: 3rem;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .main__aside {
+    width: 75%;
+  }
+
+  .skills__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .marketing__div,
+  #design__div,
+  #fe-dev__div {
+    padding-bottom: 66px;
+  }
+
+  #kindara__a,
+  #st__a {
+    font-size: 2rem;
+  }
+
 }
