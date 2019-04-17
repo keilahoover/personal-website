@@ -155,6 +155,8 @@ footer {
   color: #AF888A;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 1415px) {
   .name,
   .resume,
@@ -164,13 +166,9 @@ footer {
 }
 
 @media screen and (max-width: 812px) {
-  #first-p,
-  #second-p
-  #third-p,
-  #fourth-p,
-  #kindara__p,
-  #second-aside,
-  #fifth-aside
+
+  .kindara__p,
+  .kindara__ul
    {
     font-size: 3rem;
   }
