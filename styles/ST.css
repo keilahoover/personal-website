@@ -137,15 +137,32 @@
 
 #detail-01 {
   position: absolute;
-  top: 25px;
-  width: 33%;
+  top: 0px;
+  width: 58%;
+  }
+
+.st__img {
+  width: 10%;
+}
+
+#arrow-01 {
+  padding-left: 2rem;
+}
+
+#arrow-02 {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 #detail-02 {
   position: absolute;
-  width: 45%;
-  top: 51px;
-  right: 13rem;
+  top: 1px;
+  right: 0rem;
+  width: 35%;
 }
 
 #detail-03 {
