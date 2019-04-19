@@ -12,13 +12,13 @@
 
 .name,
 .resume,
-.contact {
+.st {
   color: #EBEBEB;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   text-decoration: none;
-  padding: 22px 16.2rem;
+  padding: 22px 112px;
 }
 
 .kindara__h1 {
@@ -61,6 +61,16 @@
 .span--inline {
   display: inline;
   margin-left: 5px;
+}
+
+.kindara__a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #7e5456;
+}
+
+.kindara__a:hover {
+  color: #AF888A; 
 }
 
 .kindara__h3 {

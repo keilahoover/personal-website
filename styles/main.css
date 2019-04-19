@@ -238,7 +238,8 @@ main {
 
 .skills__h3,
 .portfolio__h3,
-.header__h3 {
+.header__h3,
+.contact__h3 {
   font-weight: 700;
   color: #9B6A6C;
   font-size: 8rem;
@@ -310,10 +311,6 @@ main {
   justify-content: center;
 }
 
-/* .portfolio__article {
-  margin: 0 2rem;
-} */
-
 #portfolio-kindara {
   display: flex;
   align-items: center;
@@ -357,6 +354,50 @@ main {
 .portfolio__article:hover .kindara__a,
 .portfolio__article:hover .st__a {
   opacity: 0.8;
+}
+
+#contact__h3 {
+  padding: 100px 0 66px;
+}
+
+.contact__article {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 11rem;
+}
+
+.contact__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__h4,
+.contact__a {
+  color: #9B6A6C;
+  font-family: "Kurale", cursive;
+  font-size: 4rem;
+  letter-spacing: .08rem;
+}
+
+.contact__a {
+  text-decoration: none;
+}
+
+.contact__a:hover {
+  color: #AF888A;
+  text-decoration: underline;
+
+}
+
+.contact__icon {
+  color: #8DB9C1;
+  font-size: 6rem;
+}
+
+#email,
+#github {
+  padding-bottom: 130px;
 }
 
 footer {
