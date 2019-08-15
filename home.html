@@ -1,152 +1,240 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Keila Hoover</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kurale|Raleway:400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/portfolio_favicon.png"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Keila Hoover</title>
-  <link href="https://fonts.googleapis.com/css?family=Kurale|Raleway:400,600,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="shortcut icon" type="image/png" href="img/portfolio_favicon.png" />
+  <body>
+    <header class="header">
+      <a href="#main-menu" class="menu-toggle">
+        <span class="fa fa-bars"></span>
+      </a>
+      <nav id="main-menu" class="main-menu">
+        <a href="#main-menu-toggle" class="menu-close">
+          <span class="fa fa-close"><i class="fas fa-times"></i></span>
+        </a>
+        <ul>
+          <li><a href="KHoover_Resume_2019.pdf">RESUME&#769;</a></li>
+          <li><a href="#portfolio-container">PORTFOLIO</a></li>
+          <li><a href="#skills-container">SKILLS</a></li>
+          <li><a href="#contact-container">CONTACT</a></li>
+        </ul>
+      </nav>
+      <a href="main-menu-toggle" class="backdrop" hidden></a>
 
-</head>
-
-<body>
-  <header class="header">
-    <nav class="header__nav" id="header__nav">
-      <a href="KHoover_Resume_2019.pdf" target="_blank" class="header__resume" id="header__resume">RESUME&#769;</a>
-      <article class="header__article">
-        <a href="#portfolio-container" class="header__portfolio" id="header__portfolio">PORTFOLIO</a>
-      </article>
-      <a href="#skills-container" class="header__skills" id="header__skills">SKILLS</a>
-      <a href="#contact-container" class="header__contact" id="header__contact">CONTACT</a>
-    </nav>
-    <h1 class="header__h1">KEILA HOOVER</h1>
-    <section class="header__section">
-      <h3 class="header__h3" id="header__h3"> UI/UX DESIGN</h3>
-      <h3 class="header__h3" id="header--line">|</h3>
-      <h3 class="header__h3" id="header__h3"> FRONT-END DEVELOPMENT</h3>
-      <h3 class="header__h3" id="header--line">|</h3>
-      <h3 class="header__h3" id="header__h3">DIGITAL MARKETING</h3>
-    </section>
-    <aside class="header__aside">
-      <div class="downArrow bounce">
-        <i class="fas fa-angle-double-down"></i>
-      </div>
-      <h4 class="header__h4" id="header__h4">CURIOUS TO KNOW MORE?</h4>
-    </aside>
-  </header>
-  <section class="about-container" id="about-container">
-    <img class="about__img" src="img/about_me.svg">
-    <main>
-      <aside class="main__aside">
-        <p class="main__p"><span class="main__span">I'm a Front-End Developer & UX Designer</span> with a background in digital marketing and all it's facets with a passion to create a beautifully functional User Experience.</p>
-        <p class="main__p" id="main__p">Once I discovered UX, I knew it encompassed my passions: people, problem-solving, & storytelling. My confidence increased over time while helping others reach their business goals through UX design and development.</p>
-        <p class="main__p" id="main__p">When I'm not coding my heart out, you will most likely find me nose deep in a good book, graphic novel, or video game. Or possibly out and about digging in to tasty foods in Denver & Boulder. I also dream about and enjoy
-          traveling--I'm currently planning an Asia trip to Singapore, China, & Japan.</p>
-      </aside>
-    </main>
-    <h4 class="resume__h4">TAKE A LOOK AT MY RESUME&#769;!</h4>
-    <button class="resume__btn"><a href="KHoover_Resume_2019.pdf" class="resume__a" target="_blank">DOWNLOAD</a></button>
-  </section>
-  <section class="skills-container" id="skills-container">
-    <h3 class="skills__h3" id="skills__h3">SKILLS</h3>
-    <article class="skills__article">
-    <aside class="skills-wrap-one">
-      <div class="fe-dev__div" id="fe-dev__div">
-        <i class="fas fa-code skills__icon"></i>
-        <h4 class="skills__h4">FRONT-END</h4>
-        <h4 class="skills__h4">DEVELOPMENT</h4>
-        <div class="fe-dev-skills-wrap">
-          <div id="fe-dev-skills">
-            <p class="skills__p">HTML5</p>
-            <p class="skills__p">CSS</p>
-            <p class="skills__p">Sass</p>
-            <!-- <p class="skills__p">ARIA - Acessiblity</p> -->
-          </div>
-          <div id="fe-dev-skills">
-            <p class="skills__p">ES6</p>
-            <p class="skills__p">Javascript</p>
-            <p class="skills__p">jQuery</p>
-          </div>
-          <div class="p--padding" id="fe-dev-skills">
-            <p class="skills__p">React</p>
-            <p class="skills__p">Swift</p>
-            <p class="skills__p">Obj-C</p>
-          </div>
+      <nav class="header__nav" id="header__nav">
+        <a
+          href="KHoover_Resume_2019.pdf"
+          target="_blank"
+          class="header__resume"
+          id="header__resume"
+          >RESUME&#769;</a
+        >
+        <article class="header__article">
+          <a
+            href="#portfolio-container"
+            class="header__portfolio"
+            id="header__portfolio"
+            >PORTFOLIO</a
+          >
+        </article>
+        <a href="#skills-container" class="header__skills" id="header__skills"
+          >SKILLS</a
+        >
+        <a
+          href="#contact-container"
+          class="header__contact"
+          id="header__contact"
+          >CONTACT</a
+        >
+      </nav>
+      <h1 class="header__h1">KEILA HOOVER</h1>
+      <section class="header__section">
+        <h3 class="header__h3" id="header__h3">UI/UX DESIGN</h3>
+        <h3 class="header__h3" id="header--line">|</h3>
+        <h3 class="header__h3" id="header__h3">FRONT-END DEVELOPMENT</h3>
+        <h3 class="header__h3" id="header--line">|</h3>
+        <h3 class="header__h3" id="header__h3">DIGITAL MARKETING</h3>
+      </section>
+      <aside class="header__aside">
+        <div class="downArrow bounce">
+          <i class="fas fa-angle-double-down"></i>
         </div>
-      </div>
-      <div class="marketing__div">
-        <i class="fas fa-funnel-dollar skills__icon"></i>
-        <h4 class="skills__h4">MARKETING</h4>
-        <p class="skills__p">SEO</p>
-        <p class="skills__p">KPI Research & Implementation</p>
-        <p class="skills__p">Analytics & Metrics</p>
-        <p class="skills__p">Testing & Optimization</p>
-      </div>
-    </aside>
-    <aside class="skills-wrap-two">
-      <div class="design__div" id="design__div">
-        <i class="fas fa-universal-access skills__icon"></i>
-        <h4 class="skills__h4">UI/UX DESIGN</h4>
-        <p class="skills__p">Wireframing</p>
-        <p class="skills__p">UX Research</p>
-        <p class="skills__p">Usability Testing</p>
-        <p class="skills__p">Visual Communication</p>
-        <p class="skills__p">Adobe Creative Suite</p>
-      </div>
-      <div class="project-manage__div">
-        <i class="fas fa-cogs skills__icon"></i>
-        <h4 class="skills__h4">PROJECT MANAGEMENT</h4>
-        <p class="skills__p">Software Implementation</p>
-        <p class="skills__p">Git Workflow</p>
-        <p class="skills__p">Integrate Projects</p>
-        <p class="skills__p">Agile & Scrum</p>
-      </div>
-    </aside>
-  </article>
-    </article>
-  </section>
-  <section class="portfolio-container" id="portfolio-container">
-    <h3 class="portfolio__h3">PORTFOLIO</h3>
-    <div class="portfolio__div">
-      <article class="portfolio__article" id="portfolio-kindara"><a href="content/kindara.html" class="kindara__a" id="kindara__a">KINDARA</a></article>
-      <article class="portfolio__article" id="portfolio-st"><a href="content/ST.html" class="st__a" id="st__a">SOUNDS TRUE</a></article>
-    </div>
-  </section>
-  <section class="contact-container" id="contact-container">
-    <h3 class="contact__h3" id="contact__h3">LET'S CONNECT & CREATE</h3>
-    <article class="contact__article">
-      <div class="contact__div">
-        <aside class=contact__aside id="email">
-          <i class="far fa-envelope contact__icon"></i>
-          <a href="mailto:keila.hoover@gmail.com" class="contact__a">keila.hoover@gmail.com</a>
+        <h4 class="header__h4" id="header__h4">CURIOUS TO KNOW MORE?</h4>
+      </aside>
+    </header>
+    <section class="about-container" id="about-container">
+      <img class="about__img" src="img/about_me.svg" />
+      <main>
+        <aside class="main__aside">
+          <p class="main__p">
+            <span class="main__span"
+              >I'm a Front-End Developer & UX Designer</span
+            >
+            with a background in digital marketing and fashion with a passion to
+            create a beautifully functional User Experience.
+          </p>
+          <p class="main__p" id="main__p">
+            Once I discovered UX, I knew it encompassed my passions: people,
+            problem-solving, & storytelling. My confidence increased over time
+            while helping others reach their business goals through UX design
+            and development.
+          </p>
+          <p class="main__p" id="main__p">
+            When I'm not coding my heart out, you will most likely find me nose
+            deep in a good book, graphic novel, or video game. Or possibly out
+            and about digging in to tasty foods in Denver & Boulder. I also
+            dream about and enjoy traveling.
+          </p>
         </aside>
-        <aside class="contact__aside" id="phone">
-          <i class="fas fa-phone contact__icon"></i>
-          <h4 class="contact__h4">806.341.2625</4h>
+      </main>
+      <h4 class="resume__h4">TAKE A LOOK AT MY RESUME&#769;!</h4>
+      <button class="resume__btn">
+        <a href="KHoover_Resume_2019.pdf" class="resume__a" target="_blank"
+          >DOWNLOAD</a
+        >
+      </button>
+    </section>
+    <section class="skills-container" id="skills-container">
+      <h3 class="skills__h3" id="skills__h3">SKILLS</h3>
+      <article class="skills__article">
+        <aside class="skills-wrap-one">
+          <div class="fe-dev__div" id="fe-dev__div">
+            <i class="fas fa-code skills__icon"></i>
+            <h4 class="skills__h4">FRONT-END</h4>
+            <h4 class="skills__h4">DEVELOPMENT</h4>
+            <div class="fe-dev-skills-wrap">
+              <div id="fe-dev-skills">
+                <p class="skills__p">HTML5</p>
+                <p class="skills__p">CSS</p>
+                <p class="skills__p">Sass</p>
+                <!-- <p class="skills__p">ARIA - Acessiblity</p> -->
+              </div>
+              <div id="fe-dev-skills">
+                <p class="skills__p">ES6</p>
+                <p class="skills__p">Javascript</p>
+                <p class="skills__p">jQuery</p>
+              </div>
+              <div class="p--padding" id="fe-dev-skills">
+                <p class="skills__p">React</p>
+                <p class="skills__p">Swift</p>
+                <p class="skills__p">Obj-C</p>
+              </div>
+            </div>
+          </div>
+          <div class="marketing__div">
+            <i class="fas fa-funnel-dollar skills__icon"></i>
+            <h4 class="skills__h4">MARKETING</h4>
+            <p class="skills__p">SEO</p>
+            <p class="skills__p">KPI Research & Implementation</p>
+            <p class="skills__p">Analytics & Metrics</p>
+            <p class="skills__p">Testing & Optimization</p>
+          </div>
         </aside>
+        <aside class="skills-wrap-two">
+          <div class="design__div" id="design__div">
+            <i class="fas fa-universal-access skills__icon"></i>
+            <h4 class="skills__h4">UI/UX DESIGN</h4>
+            <p class="skills__p">Wireframing</p>
+            <p class="skills__p">UX Research</p>
+            <p class="skills__p">Usability Testing</p>
+            <p class="skills__p">Visual Communication</p>
+            <p class="skills__p">Adobe Creative Suite</p>
+          </div>
+          <div class="project-manage__div">
+            <i class="fas fa-cogs skills__icon"></i>
+            <h4 class="skills__h4">PROJECT MANAGEMENT</h4>
+            <p class="skills__p">Software Implementation</p>
+            <p class="skills__p">Git Workflow</p>
+            <p class="skills__p">Integrate Projects</p>
+            <p class="skills__p">Agile & Scrum</p>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <section class="portfolio-container" id="portfolio-container">
+      <h3 class="portfolio__h3">PORTFOLIO</h3>
+      <div class="portfolio__div">
+        <article class="portfolio__article" id="portfolio-kindara">
+          <a href="content/kindara.html" class="kindara__a" id="kindara__a"
+            >KINDARA</a
+          >
+        </article>
+        <article class="portfolio__article" id="portfolio-st">
+          <a href="content/ST.html" class="st__a" id="st__a">SOUNDS TRUE</a>
+        </article>
       </div>
-      <div class="contact__div">
-        <aside class="contact__aside" id="github">
-          <i class="fab fa-github-square contact__icon" aria-hidden="true"></i>
-          <a href="https://github.com/keilahoover" class="contact__a">/keilahoover</a>
-        </aside>
-        <aside class="contact__aside" id="linkedin">
-          <i class="fab fa-linkedin contact__icon"></i>
-        <a href="https://www.linkedin.com/in/keilahoover/" class="contact__a">/keilahoover</a>
-        </aside>
-      </div>
-    </article>
-  </section>
-  <footer class="footer">
-    <nav class="footer__nav">
-      <a href="https://github.com/keilahoover" target="_blank" class="footer__a"><i class="fab fa-github-square" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/keilahoover/" target="_blank" class="footer__a"><i class="fab fa-linkedin"></i></a>
-    </nav>
-    <p class="footer__p">Designed & Developed by Keila Hoover &copy; 2019</p>
-  </footer>
-</body>
-
+    </section>
+    <section class="contact-container" id="contact-container">
+      <h3 class="contact__h3" id="contact__h3">LET'S CONNECT & CREATE</h3>
+      <article class="contact__article">
+        <div class="contact__div">
+          <aside class="contact__aside" id="email">
+            <i class="far fa-envelope contact__icon"></i>
+            <a href="mailto:keila.hoover@gmail.com" class="contact__a"
+              >keila.hoover@gmail.com</a
+            >
+          </aside>
+          <aside class="contact__aside" id="phone">
+            <i class="fas fa-phone contact__icon"></i>
+            <h4 class="contact__h4">806.341.2625</h4>
+          </aside>
+        </div>
+        <div class="contact__div">
+          <aside class="contact__aside" id="github">
+            <i
+              class="fab fa-github-square contact__icon"
+              aria-hidden="true"
+            ></i>
+            <a href="https://github.com/keilahoover" class="contact__a"
+              >/keilahoover</a
+            >
+          </aside>
+          <aside class="contact__aside" id="linkedin">
+            <i class="fab fa-linkedin contact__icon"></i>
+            <a
+              href="https://www.linkedin.com/in/keilahoover/"
+              class="contact__a"
+              >/keilahoover</a
+            >
+          </aside>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <a
+          href="https://github.com/keilahoover"
+          target="_blank"
+          class="footer__a"
+          ><i class="fab fa-github-square" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/keilahoover/"
+          target="_blank"
+          class="footer__a"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </nav>
+      <p class="footer__p">Designed & Developed by Keila Hoover &copy; 2019</p>
+    </footer>
+  </body>
 </html>
