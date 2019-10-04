@@ -318,26 +318,28 @@ main {
 
 .portfolio__div {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #portfolio-kindara {
   display: flex;
   align-items: center;
-  background: url("../img/Kindara_iPhone_mockup.png");
+  background: url(../img/Kindara_iPhone_mockup.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 40%;
-  height: 459px;
+  height: 222px;
 }
 
 #portfolio-st {
   display: flex;
   align-items: center;
-  background: url("../img/ST_macbook_mockup.png");
+  background: url(../img/ST_macbook_mockup.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 40%;
+  height: 222px;
 }
 
 .portfolio__h3 {
@@ -440,7 +442,11 @@ footer {
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  color: ##af888a;
+  color: #424b54;
+}
+
+#menu-close {
+  color: #8db9c1;
 }
 
 .main-menu {
@@ -458,33 +464,31 @@ footer {
 .main-menu ul {
   list-style: none;
   margin: 0;
-  padding: 2.5em 0 0;
   /* Hide shadow w/ -8px while 'closed' */
   -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
   box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
-  min-height: 100%;
   width: 200px;
-  background: #1a1a1a;
+  background: rgba(66, 75, 84, 0.75);
 }
 
 .main-menu a {
   display: block;
   padding: 0.75em 15px;
-  line-height: 1em;
-  font-size: 1em;
+  line-height: 1.4em;
+  font-size: 1.6em;
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid #383838;
+  border-bottom: 0.5px solid #ffffff;
 }
 
 .main-menu li:first-child a {
-  border-top: 1px solid #383838;
+  border-top: 1px solid #ffffff;
 }
 
 .main-menu a:hover,
 .main-menu a:focus {
-  background: #ffffff;
+  background: #424b54;
   text-decoration: underline;
 }
 
@@ -517,8 +521,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 998;
-  background: #8db9c1;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.75);
   cursor: default;
 }
 
@@ -528,6 +531,12 @@ footer {
   .main-menu[aria-expanded="true"] + .backdrop {
     position: fixed;
   }
+}
+
+.menu-toggle,
+.main-menu,
+.menu-close {
+  display: none;
 }
 
 /* Media Queries  */
@@ -555,9 +564,7 @@ footer {
     font-size: 5rem;
   }
 
-  #header__h3 {
-    font-size: 3rem;
-  }
+cd F
 }
 
 @media screen and (max-width: 1046px) {
@@ -617,17 +624,19 @@ footer {
     font-size: 2rem;
   }
 
-  #contact__h3 {
+  #contact__h3,
+  #skills__h3,
+  #portfolio__h3 {
     font-size: 5rem;
   }
 }
 
-@media (min-width: 768px) {
-  /* .menu-toggle,
+@media (max-width: 768px) {
+  .menu-toggle,
   .main-menu,
   .menu-close {
-    display: none;
-  } */
+    display: block;
+  }
 
   #header__nav {
     display: none;
