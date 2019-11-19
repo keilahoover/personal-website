@@ -580,20 +580,14 @@ cd F
     background-position: center;
   }
 
-  #header__resume,
-  #header__portfolio,
-  #header__skills {
-    margin-right: 12rem;
-    font-size: 1.8rem;
+  .menu-toggle,
+  .main-menu,
+  .menu-close {
+    display: block;
   }
 
-  #header__contact {
-    font-size: 1.8rem;
-  }
-
-  #kindara__a,
-  #st__a {
-    margin-bottom: 60px;
+  #header__nav {
+    display: none;
   }
 
   .main__p {
@@ -604,6 +598,14 @@ cd F
 @media screen and (max-width: 800px) {
   .main__aside {
     width: 75%;
+  }
+
+  #header__h3 {
+    font-size: 2.5rem;
+  }
+
+  .menu-toggle {
+    right: 293px;
   }
 
   .skills__article {
@@ -631,14 +633,18 @@ cd F
   }
 }
 
-@media (max-width: 768px) {
-  .menu-toggle,
-  .main-menu,
-  .menu-close {
-    display: block;
+@media (max-width: 667px) {
+  #contact__h3,
+  #skills__h3,
+  #portfolio__h3 {
+    font-size: 4rem;
   }
 
-  #header__nav {
-    display: none;
+  #header__h3 {
+    font-size: 2.5rem;
+  }
+
+  .contact__h4, .contact__a {
+    font-size: 2.5rem;
   }
 }
